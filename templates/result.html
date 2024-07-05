@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Classification Result</h1>
+      <p>The uploaded image is classified as: <strong>{{ label }}</strong></p>
+      <a href="/" class="back-link">Upload another image</a>
+    </div>
+  </body>
+</html>
